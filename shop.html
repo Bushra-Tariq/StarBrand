@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarBrand</title>
+    <link rel="shortcut icon" href="images/logo1.png">
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+
+    <!--style-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--navbar start-->
+    <header class="header">
+        <a href="index.html" class="logo"><img src="images/logo.png" alt="logo" height="240" width="240"></a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="about.html">About</a>
+            <a href="blog.html">Blog</a>
+            <a href="review.html">review</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="cart-btn" class="fas fa-shopping-cart"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/cart1.png" alt="cart">
+                <div class="content">
+                    <h3>Sweet Basil</h3>
+                    <span class="price">$5.49/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/cart2.png" alt="cart">
+                <div class="content">
+                    <h3>Thai Sweet Chilli Sauce</h3>
+                    <span class="price">$2.49/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/cart3.png" alt="cart">
+                <div class="content">
+                    <h3>Aleppo Peppers</h3>
+                    <span class="price">$8.49/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total">total : $19.69/-</div>
+            <a href="#" class="btn">CheckOut</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+    </header>
+    <!--navbar end-->
+
+    <!--home start-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>New <span>sale </span>season is here now!</h3>
+            <p><a href="index.html">home>> </a>Shop </p>
+        </div>
+    </section>
+    <!--home end-->
+
+    <br>
+
+     <!--product start-->
+     <section class="products" id="products">
+        <h1 class="heading">featured <span>products</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <div class="pro" onclick="window.location.href='sp1.html';">
+                    <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <img src="images/cart1.png" alt="product">
+                <h3>Sweet Basil</h3>
+                <div class="price">$5.49-<span>$9.49</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <div class="pro" onclick="window.location.href='sp2.html';">
+                    <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <img src="images/p1.png" alt="product">
+                <h3>Crushed Red Chiles</h3>
+                <div class="price">$6.99-<span>$12.49</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="" class="btn">add to cart</a>
+            </div>
+ 
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <div class="pro" onclick="window.location.href='sp3.html';">
+                     <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <img src="images/p2.png" alt="product">
+                <h3>Taco Seasoning</h3>
+                <div class="price">$7.99-<span>$16.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a><div class="pro" onclick="window.location.href='sp4.html';">
+                    <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <img src="images/p3.png" alt="product">
+                <h3>Wholegrain Mustard</h3>
+                <div class="price">$12.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a><div class="pro" onclick="window.location.href='sp5.html';">
+                    <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <img src="images/p4.png" alt="product">
+                <h3>Garlic Mayonaise</h3>
+                <div class="price">$14.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <div class="pro" onclick="window.location.href='sp6.html';">
+                    <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <img src="images/p5.png" alt="product">
+                <h3>Tomato & Herb Sauce</h3>
+                <div class="price">$8.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="" class="btn">add to cart</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <div class="box-container">
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <div class="pro" onclick="window.location.href='sp7.html';">
+                    <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <img src="images/p6.png" alt="product">
+                <h3>Maple Garlic Seasoning</h3>
+                <div class="price">$9.99-<span>$16.49</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <div class="pro" onclick="window.location.href='sp8.html';">
+                    <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <img src="images/p7.png" alt="product">
+                <h3>Smoked Sweet Paprika</h3>
+                <div class="price">$9.49-<span>$20.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <div class="pro" onclick="window.location.href='sp9.html';">
+                    <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <img src="images/p8.png" alt="product">
+                <h3>Tellicherry Peppercorns</h3>
+                <div class="price">$7.49-<span>$17.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <div class="pro" onclick="window.location.href='sp10.html';">
+                    <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <img src="images/p9.png" alt="product">
+                <br><br>
+                <h3>Smokey BBQ Sauce</h3>
+                <div class="price">$9.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <div class="pro" onclick="window.location.href='sp11.html';">
+                    <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <img src="images/p10.png" alt="product">
+                <h3>Classic Mayonaise</h3>
+                <div class="price">$8.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <div class="pro" onclick="window.location.href='sp12.html';">
+                    <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <img src="images/p11.png" alt="product">
+                <h3>Tangy BBQ Sauce</h3>
+                <div class="price">$11.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="" class="btn">add to cart</a>
+            </div>
+        </div>
+    </section>
+    <!--product end-->
+
+    <section class="pagination" id="pagination">
+        <a href="#">1</a>
+        <a href="#"><i class="fas fa-arrow-right"></i></a>
+    </section>
+
+    <section class="newsletter" id="newsletter">
+        <div class="newstext">
+            <h4>subscribe for latest updates</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="box">
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+        </div>
+    </section>
+
+    <!--footer start-->
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <a href="index.html"><img src="images/logo.png" alt="logo" height="280" width="280"></a>
+                <div class="share">
+                    <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                    <a href="https://www.twitter.com/" class="fab fa-twitter"></a>
+                    <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +123-9245890</a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333</a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> StarBrand@gmail.com</a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> karachi, pakistan</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> shop</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> about</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blog</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> gallery</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> contact</a>
+            </div>
+
+            <div class="box">
+                <h3>Install App</h3>
+                <p>From App Store or Google Play</p>
+                <div class="row">
+                    <img src="images/ip1.png" alt="">
+                    <img src="images/ip2.png" alt="">
+                </div>
+                <p>Secured Payment Gateways</h3>
+                <img src="images/pay.png" alt="">
+            </div>
+        </div>
+        <div class="credit">
+            created by <span>star brand</span> | all rights reserved
+        </div>
+    </section>
+
+    <!--footer end-->
+    
+
+
+
+    <!--js-->
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarBrand</title>
+    <link rel="shortcut icon" href="images/logo1.png">
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+
+    <!--style-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--navbar start-->
+    <header class="header">
+        <a href="index.html" class="logo"><img src="images/logo.png" alt="logo" height="240" width="240"></a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="about.html">About</a>
+            <a href="blog.html">Blog</a>
+            <a href="review.html">review</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="cart-btn" class="fas fa-shopping-cart"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/cart1.png" alt="cart">
+                <div class="content">
+                    <h3>Sweet Basil</h3>
+                    <span class="price">$5.49/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/cart2.png" alt="cart">
+                <div class="content">
+                    <h3>Thai Sweet Chilli Sauce</h3>
+                    <span class="price">$2.49/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/cart3.png" alt="cart">
+                <div class="content">
+                    <h3>Aleppo Peppers</h3>
+                    <span class="price">$8.49/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total">total : $19.69/-</div>
+            <a href="#" class="btn">CheckOut</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+    </header>
+    <!--navbar end-->
+    <br><br><br>
+
+    <section id="prodetails" class="prodetails">
+        <div class="single-pro-image">
+            <img src="images/p6.png"  width="100%" id="MainImg" alt="product">
+        <div class="small-img-group ">
+            <div class="small-img-col">
+                <img src="images/p6.png" width="100%" class="small-img" alt="product">
+            </div>
+            <div class="small-img-col">
+                <img src="images/sp10.png" width="100%" class="small-img" alt="product">
+            </div>
+            <div class="small-img-col">
+                <img src="images/sp11.png" width="100%" class="small-img" alt="product">
+            </div>
+            <div class="small-img-col">
+                <img src="images/sp12.png" width="100%" class="small-img" alt="product">
+            </div>
+        </div>
+        </div>
+        <div class="single-pro-details">
+            <h6><a href="index.html">home>> </a>spices </h6>
+            <h4>Maple Garlic Seasoning</h4>
+            <h2>$9.99-<span>$16.49</span></h2>
+            <select>
+                <option>Select</option>
+                <option>jar</option>
+                <option>Flatpack</option>
+                <option>bag</option>
+            </select>
+            <input type="number" value="1">
+            <button class="btn">Add To Cart</button>
+            <h4>Product Details</h4>
+            <span>
+                Elevate your culinary creations with our Maple Garlic Seasoning, a delightful fusion of sweet and savory. This versatile blend adds a burst of flavor to your dishes, from roasted vegetables to grilled meats. Unleash the delicious pairing of maple syrup and garlic in every bite.
+                Crafted with care, our Maple Garlic Seasoning is a versatile blend that adds a tantalizing touch to a wide range of recipes. Whether you're roasting a medley of vegetables, grilling chicken or steak, or preparing a savory sauce, this seasoning is your ticket to gourmet excellence. 
+            </span>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <h1 class="heading">featured <span>products</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <div class="pro" onclick="window.location.href='sp1.html';">
+                    <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <img src="images/p7.png" alt="product">
+                <h3>Smoked Sweet Paprika</h3>
+                <div class="price">$9.49-<span>$20.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <div class="pro" onclick="window.location.href='sp2.html';">
+                    <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <img src="images/p1.png" alt="product">
+                <h3>Crushed Red Chiles</h3>
+                <div class="price">$6.99-<span>$12.49</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="" class="btn">add to cart</a>
+            </div>
+ 
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <div class="pro" onclick="window.location.href='sp9.html';">
+                    <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <img src="images/p8.png" alt="product">
+                <h3>Tellicherry Peppercorns</h3>
+                <div class="price">$7.49-<span>$17.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="" class="btn">add to cart</a>
+            </div>
+    </section>
+    
+
+    <section class="newsletter" id="newsletter">
+        <div class="newstext">
+            <h4>subscribe for latest updates</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="box">
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+        </div>
+    </section>
+
+    
+
+    <!--footer start-->
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <a href="index.html" class="logo"><img src="images/logo.png" alt="logo" height="280" width="280"></a>
+                <div class="share">
+                    <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                    <a href="https://www.twitter.com/" class="fab fa-twitter"></a>
+                    <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +123-9245890</a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333</a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> StarBrand@gmail.com</a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> karachi, pakistan</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> shop</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> about</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blog</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> gallery</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> contact</a>
+            </div>
+
+            <div class="box">
+                <h3>Install App</h3>
+                <p>From App Store or Google Play</p>
+                <div class="row">
+                    <img src="images/ip1.png" alt="">
+                    <img src="images/ip2.png" alt="">
+                </div>
+                <p>Secured Payment Gateways</h3>
+                <img src="images/pay.png" alt="">
+            </div>
+        </div>
+        <div class="credit">
+            created by <span>star brand</span> | all rights reserved
+        </div>
+    </section>
+
+    <!--footer end-->
+
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+        smallimg[0].onclick = function () {
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function () {
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function () {
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function () {
+            MainImg.src = smallimg[3].src;
+        }
+    </script>
+
+    <!--js-->
+    <script src="js/script.js"></script>
+</body>
+</html>
